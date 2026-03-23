@@ -1,4 +1,4 @@
-package com.lucasramos.cnotes.domain.folder;
+package com.lucasramos.jakenotes.domain.folder;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.NativeQuery;

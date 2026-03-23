@@ -1,10 +1,10 @@
-package com.lucasramos.cnotes.domain.folder;
+package com.lucasramos.jakenotes.domain.folder;
 
 
-import com.lucasramos.cnotes.domain.note.Note;
-import com.lucasramos.cnotes.domain.note.NoteRepository;
-import com.lucasramos.cnotes.shared.CNotesIntegrationTest;
-import com.lucasramos.cnotes.mock.MockFactory;
+import com.lucasramos.jakenotes.domain.note.Note;
+import com.lucasramos.jakenotes.domain.note.NoteRepository;
+import com.lucasramos.jakenotes.shared.JakeNotesIntegrationTest;
+import com.lucasramos.jakenotes.mock.MockFactory;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
@@ -17,7 +17,7 @@ import java.util.NoSuchElementException;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-public class FolderServiceImplTest extends CNotesIntegrationTest {
+public class FolderServiceImplTest extends JakeNotesIntegrationTest {
 
     @Autowired
     private MockFactory mockFactory;
@@ -42,12 +42,12 @@ public class FolderServiceImplTest extends CNotesIntegrationTest {
     }
 
     @Nested
-    class Given_list_of_folders extends CNotesIntegrationTest {
+    class Given_list_of_folders extends JakeNotesIntegrationTest {
 
         private List<Folder> listOfFolders = new ArrayList<>();
 
         @Nested
-        class When_get_the_top_five_folders_with_more_notes extends CNotesIntegrationTest {
+        class When_get_the_top_five_folders_with_more_notes extends JakeNotesIntegrationTest {
 
             private final int NUMBER_OF_FOLDERS = 5;
 
@@ -79,11 +79,11 @@ public class FolderServiceImplTest extends CNotesIntegrationTest {
     }
 
     @Nested
-    class Given_a_folder extends CNotesIntegrationTest {
+    class Given_a_folder extends JakeNotesIntegrationTest {
         private Folder folder;
 
         @Nested
-        class When_get_folder extends CNotesIntegrationTest {
+        class When_get_folder extends JakeNotesIntegrationTest {
 
             private Folder folderResponse;
 
@@ -105,7 +105,7 @@ public class FolderServiceImplTest extends CNotesIntegrationTest {
         }
 
         @Nested
-        class When_get_folder_not_exists extends CNotesIntegrationTest {
+        class When_get_folder_not_exists extends JakeNotesIntegrationTest {
 
             private Long id = 1L;
 

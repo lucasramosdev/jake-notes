@@ -1,4 +1,4 @@
-package com.lucasramos.cnotes.domain.note;
+package com.lucasramos.jakenotes.domain.note;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;

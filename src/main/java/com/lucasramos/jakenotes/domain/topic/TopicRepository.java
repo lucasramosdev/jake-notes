@@ -1,4 +1,4 @@
-package com.lucasramos.cnotes.domain.topic;
+package com.lucasramos.jakenotes.domain.topic;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

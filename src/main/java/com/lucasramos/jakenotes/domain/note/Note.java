@@ -1,7 +1,7 @@
-package com.lucasramos.cnotes.domain.note;
+package com.lucasramos.jakenotes.domain.note;
 
-import com.lucasramos.cnotes.domain.topic.Topic;
-import com.lucasramos.cnotes.infra.baseentity.BaseEntity;
+import com.lucasramos.jakenotes.domain.topic.Topic;
+import com.lucasramos.jakenotes.infra.baseentity.BaseEntity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

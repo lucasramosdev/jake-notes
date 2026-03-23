@@ -1,4 +1,4 @@
-package com.lucasramos.cnotes.domain.folder;
+package com.lucasramos.jakenotes.domain.folder;
 
 import java.util.List;
 

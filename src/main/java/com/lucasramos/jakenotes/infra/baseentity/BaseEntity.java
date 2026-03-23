@@ -1,8 +1,6 @@
-package com.lucasramos.cnotes.infra.baseentity;
+package com.lucasramos.jakenotes.infra.baseentity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 
 import java.time.OffsetDateTime;
 

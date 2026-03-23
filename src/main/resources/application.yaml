@@ -1,7 +1,7 @@
 spring:
   application:
-    name: cnotes
+    name: jake-notes
   datasource:
-    url: "jdbc:postgresql://localhost:5432/cnotes"
+    url: "jdbc:postgresql://localhost:5432/jakenotes"
     username: ${DB_USER}
     password: ${DB_PASSWORD}

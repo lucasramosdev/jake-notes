@@ -1,6 +1,6 @@
-package com.lucasramos.cnotes.shared;
+package com.lucasramos.jakenotes.shared;
 
-import com.lucasramos.cnotes.CnotesApplication;
+import com.lucasramos.jakenotes.JakeNotesApplication;
 import org.junit.jupiter.api.DisplayNameGeneration;
 import org.junit.jupiter.api.DisplayNameGenerator;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -15,7 +15,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 @ExtendWith(SpringExtension.class)
 @SpringBootTest(
         webEnvironment = SpringBootTest.WebEnvironment.MOCK,
-        classes = CnotesApplication.class)
+        classes = JakeNotesApplication.class)
 @WebAppConfiguration
 @DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)
-public abstract class CNotesIntegrationTest { }
+public abstract class JakeNotesIntegrationTest { }

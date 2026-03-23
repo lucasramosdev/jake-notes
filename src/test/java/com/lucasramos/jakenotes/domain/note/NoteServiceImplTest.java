@@ -1,7 +1,7 @@
-package com.lucasramos.cnotes.domain.note;
+package com.lucasramos.jakenotes.domain.note;
 
-import com.lucasramos.cnotes.mock.MockFactory;
-import com.lucasramos.cnotes.shared.CNotesIntegrationTest;
+import com.lucasramos.jakenotes.mock.MockFactory;
+import com.lucasramos.jakenotes.shared.JakeNotesIntegrationTest;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
@@ -12,7 +12,7 @@ import java.util.NoSuchElementException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class NoteServiceImplTest extends CNotesIntegrationTest {
+public class NoteServiceImplTest extends JakeNotesIntegrationTest {
 
     @Autowired
     private NoteRepository noteRepository;
@@ -25,11 +25,11 @@ public class NoteServiceImplTest extends CNotesIntegrationTest {
 
 
     @Nested
-    class Given_a_note extends CNotesIntegrationTest {
+    class Given_a_note extends JakeNotesIntegrationTest {
         private Note note;
 
         @Nested
-        class When_get_a_note extends CNotesIntegrationTest {
+        class When_get_a_note extends JakeNotesIntegrationTest {
             private final String noteName = "Note to save";
             private Note savedNote;
             @BeforeEach
@@ -47,7 +47,7 @@ public class NoteServiceImplTest extends CNotesIntegrationTest {
         }
 
         @Nested
-        class When_get_a_note_not_exists extends CNotesIntegrationTest {
+        class When_get_a_note_not_exists extends JakeNotesIntegrationTest {
 
             private Long id = 1L;
 
@@ -63,7 +63,7 @@ public class NoteServiceImplTest extends CNotesIntegrationTest {
         }
 
         @Nested
-        class When_save_a_note extends CNotesIntegrationTest {
+        class When_save_a_note extends JakeNotesIntegrationTest {
             private final String noteName = "Note saved";
             private Note noteToSave;
             @BeforeEach
@@ -80,7 +80,7 @@ public class NoteServiceImplTest extends CNotesIntegrationTest {
         }
 
         @Nested
-        class When_save_a_note_with_tags extends CNotesIntegrationTest {
+        class When_save_a_note_with_tags extends JakeNotesIntegrationTest {
             private final String noteName = "Note saved";
             private final List<String> tags = List.of("Tag1", "Tag2");
             private Note noteToSave;
@@ -102,11 +102,11 @@ public class NoteServiceImplTest extends CNotesIntegrationTest {
     }
 
     @Nested
-    class Given_a_list_of_notes extends CNotesIntegrationTest {
+    class Given_a_list_of_notes extends JakeNotesIntegrationTest {
         private List<Note> notes;
 
         @Nested
-        class When_get_recent_notes extends CNotesIntegrationTest {
+        class When_get_recent_notes extends JakeNotesIntegrationTest {
 
         }
     }
