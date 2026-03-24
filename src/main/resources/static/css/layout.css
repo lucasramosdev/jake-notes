@@ -1,0 +1,16 @@
+body {
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
