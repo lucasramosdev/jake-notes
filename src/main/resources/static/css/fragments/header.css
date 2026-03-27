@@ -13,6 +13,7 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%);
+    box-shadow: 1px 1px 5px #000;
 }
 
 .search-input-mobile-on {

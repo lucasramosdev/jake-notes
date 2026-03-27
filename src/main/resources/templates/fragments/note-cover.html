@@ -1,0 +1,12 @@
+<th:block th:fragment="cover(id, title, folderName)">
+    <a th:href="@{/notes/{id}(id=${id})}" class="m-3">
+        <div>
+            <div class="cover">
+                <h3 th:text="${title}" class="text-truncate fs-5"></h3>
+            </div>
+            <div class="folder-name">
+                <p th:if="${folderName != null}" th:text="${folderName}"></p>
+            </div>
+        </div>
+    </a>
+</th:block>

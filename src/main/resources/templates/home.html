@@ -1,3 +1,12 @@
-<div>
-    <h1>HOME</h1>
-</div>
+<main>
+    <h2 class="section-title">Notas Recentes</h2>
+
+    <section>
+        <div class="container-fluid d-flex justify-content-center justify-content-lg-start row row-cols-auto">
+            <th:block th:each="note : ${notes}">
+                <div th:replace="~{fragments/note-cover :: cover(id=${note.id}, title=${note.title}, folderName=${note.folderName})}">
+                </div>
+            </th:block>
+        </div>
+    </section>
+</main>
