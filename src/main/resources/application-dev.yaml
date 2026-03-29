@@ -5,6 +5,8 @@ spring:
     url: "jdbc:postgresql://localhost:5432/jakenotes"
     username: ${DB_USER}
     password: ${DB_PASSWORD}
+  flyway:
+    locations: /db/migration/common,/db/migration/development
   thymeleaf:
     cache: false
   web:
@@ -12,3 +14,7 @@ spring:
       static:
         locations[0]: file:src/main/resources/static/
         locations[1]: classpath:/static/
+  data:
+    meilisearch:
+      host: ${MEILI_HOST}
+      masterKey: ${MEILI_MASTERKEY}

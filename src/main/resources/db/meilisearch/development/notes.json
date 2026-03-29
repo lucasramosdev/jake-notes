@@ -1,0 +1,317 @@
+[
+  {
+    "id": 1,
+    "title": "Anotações de Reunião - Segunda",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices nisi in nunc bibendum tincidunt.",
+    "createdAt": "2026-03-01T08:30:00+00:00",
+    "tags": ["work", "meeting"],
+    "topics": [],
+    "folderName": "trabalho"
+  },
+  {
+    "id": 2,
+    "title": "Tutorial de Spring Boot",
+    "summary": "Maecenas leo diam, sodales at massa sit amet, sodales molestie eros. Pellentesque hendrerit a mauris et imperdiet.",
+    "createdAt": "2026-03-02T10:15:00+00:00",
+    "tags": ["java", "youtube", "backend"],
+    "topics": [],
+    "folderName": "estudos"
+  },
+  {
+    "id": 3,
+    "title": "Ideias para o Canal",
+    "summary": "Integer urna purus, sodales vitae ligula vel, dapibus luctus metus. Nam nec efficitur mauris.",
+    "createdAt": "2026-03-03T14:20:00+00:00",
+    "tags": ["youtube", "ideas"],
+    "topics": [],
+    "folderName": "criacao"
+  },
+  {
+    "id": 4,
+    "title": "Setup do Ambiente Python",
+    "summary": "Aliquam ligula metus, rhoncus nec risus vitae, placerat egestas dui. Nulla sodales, purus tempor posuere mollis.",
+    "createdAt": "2026-03-04T09:05:00+00:00",
+    "tags": ["python", "setup"],
+    "topics": [],
+    "folderName": "estudos"
+  },
+  {
+    "id": 5,
+    "title": "Deploy na AWS",
+    "summary": "Turpis odio rhoncus urna, rutrum venenatis erat nisi eget tortor. Proin viverra, ante et porta blandit.",
+    "createdAt": "2026-03-05T16:40:00+00:00",
+    "tags": ["aws", "devops", "cloud"],
+    "topics": [],
+    "folderName": "projetos"
+  },
+  {
+    "id": 6,
+    "title": "Referências de Design",
+    "summary": "Est urna ultrices massa, in imperdiet nisl nunc id massa. Nullam porta purus sed felis venenatis eleifend.",
+    "createdAt": "2026-03-06T11:10:00+00:00",
+    "tags": ["design", "ui", "ux"],
+    "topics": [],
+    "folderName": "referencias"
+  },
+  {
+    "id": 7,
+    "title": "Estudo de React Hooks",
+    "summary": "Integer eu lobortis augue, sit amet tincidunt ante. Nunc ultrices nisi in nunc bibendum tincidunt.",
+    "createdAt": "2026-03-07T18:50:00+00:00",
+    "tags": ["react", "frontend", "javascript"],
+    "topics": [],
+    "folderName": "estudos"
+  },
+  {
+    "id": 8,
+    "title": "Planejamento Semanal",
+    "summary": "Pellentesque hendrerit a mauris et imperdiet. Integer urna purus, sodales vitae ligula vel, dapibus luctus metus.",
+    "createdAt": "2026-03-08T07:00:00+00:00",
+    "tags": ["planning", "productivity"],
+    "topics": [],
+    "folderName": "pessoal"
+  },
+  {
+    "id": 9,
+    "title": "Podcast: Inteligência Artificial",
+    "summary": "Nam nec efficitur mauris. Aliquam ligula metus, rhoncus nec risus vitae, placerat egestas dui.",
+    "createdAt": "2026-03-09T20:30:00+00:00",
+    "tags": ["ai", "podcast", "tech"],
+    "topics": [],
+    "folderName": "videos"
+  },
+  {
+    "id": 10,
+    "title": "Resumo do Livro X",
+    "summary": "Nulla sodales, purus tempor posuere mollis, turpis odio rhoncus urna, rutrum venenatis erat nisi eget tortor.",
+    "createdAt": "2026-03-10T12:00:00+00:00",
+    "tags": ["reading", "books"],
+    "topics": [],
+    "folderName": "leitura"
+  },
+  {
+    "id": 11,
+    "title": "Bugs para Corrigir (Jira)",
+    "summary": "Proin viverra, ante et porta blandit, est urna ultrices massa, in imperdiet nisl nunc id massa.",
+    "createdAt": "2026-03-11T15:15:00+00:00",
+    "tags": ["work", "bugfix", "jira"],
+    "topics": [],
+    "folderName": "trabalho"
+  },
+  {
+    "id": 12,
+    "title": "Script do Vídeo: Microserviços",
+    "summary": "Nullam porta purus sed felis venenatis eleifend. Integer eu lobortis augue, sit amet tincidunt ante.",
+    "createdAt": "2026-03-12T09:45:00+00:00",
+    "tags": ["youtube", "script", "architecture"],
+    "topics": [],
+    "folderName": "criacao"
+  },
+  {
+    "id": 13,
+    "title": "Curso de Docker - Módulo 1",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo diam, sodales at massa sit amet.",
+    "createdAt": "2026-03-13T10:05:00+00:00",
+    "tags": ["docker", "devops", "course"],
+    "topics": [],
+    "folderName": "estudos"
+  },
+  {
+    "id": 14,
+    "title": "Notas de Atualização v2.1",
+    "summary": "Pellentesque hendrerit a mauris et imperdiet. Integer urna purus, sodales vitae ligula vel, dapibus luctus metus.",
+    "createdAt": "2026-03-14T14:30:00+00:00",
+    "tags": ["release", "notes", "project"],
+    "topics": [],
+    "folderName": "projetos"
+  },
+  {
+    "id": 15,
+    "title": "Lista de Compras de Hardware",
+    "summary": "Aliquam ligula metus, rhoncus nec risus vitae, placerat egestas dui. Nulla sodales, purus tempor posuere mollis.",
+    "createdAt": "2026-03-15T18:20:00+00:00",
+    "tags": ["hardware", "shopping", "setup"],
+    "topics": [],
+    "folderName": "pessoal"
+  },
+  {
+    "id": 16,
+    "title": "Como otimizar queries SQL",
+    "summary": "Turpis odio rhoncus urna, rutrum venenatis erat nisi eget tortor. Proin viverra, ante et porta blandit.",
+    "createdAt": "2026-03-16T11:45:00+00:00",
+    "tags": ["sql", "database", "performance"],
+    "topics": [],
+    "folderName": "estudos"
+  },
+  {
+    "id": 17,
+    "title": "Roteiro da Palestra",
+    "summary": "Est urna ultrices massa, in imperdiet nisl nunc id massa. Nullam porta purus sed felis venenatis eleifend.",
+    "createdAt": "2026-03-17T16:00:00+00:00",
+    "tags": ["presentation", "event", "tech"],
+    "topics": [],
+    "folderName": "eventos"
+  },
+  {
+    "id": 18,
+    "title": "Revisão de Código - PR #45",
+    "summary": "Integer eu lobortis augue, sit amet tincidunt ante. Nunc ultrices nisi in nunc bibendum tincidunt.",
+    "createdAt": "2026-03-18T09:10:00+00:00",
+    "tags": ["work", "code-review", "github"],
+    "topics": [],
+    "folderName": "trabalho"
+  },
+  {
+    "id": 19,
+    "title": "Setup do OBS Studio",
+    "summary": "Maecenas leo diam, sodales at massa sit amet, sodales molestie eros. Nam nec efficitur mauris.",
+    "createdAt": "2026-03-19T13:25:00+00:00",
+    "tags": ["youtube", "obs", "streaming"],
+    "topics": [],
+    "folderName": "criacao"
+  },
+  {
+    "id": 20,
+    "title": "Análise de Concorrentes",
+    "summary": "Aliquam ligula metus, rhoncus nec risus vitae, placerat egestas dui. Nulla sodales, purus tempor posuere mollis.",
+    "createdAt": "2026-03-20T10:50:00+00:00",
+    "tags": ["business", "analysis", "marketing"],
+    "topics": [],
+    "folderName": "projetos"
+  },
+  {
+    "id": 21,
+    "title": "Testes Unitários em Java",
+    "summary": "Turpis odio rhoncus urna, rutrum venenatis erat nisi eget tortor. Proin viverra, ante et porta blandit.",
+    "createdAt": "2026-03-21T14:15:00+00:00",
+    "tags": ["java", "testing", "junit"],
+    "topics": [],
+    "folderName": "estudos"
+  },
+  {
+    "id": 22,
+    "title": "Log de Erros do Servidor",
+    "summary": "Est urna ultrices massa, in imperdiet nisl nunc id massa. Nullam porta purus sed felis venenatis eleifend.",
+    "createdAt": "2026-03-22T08:05:00+00:00",
+    "tags": ["logs", "server", "debug"],
+    "topics": [],
+    "folderName": "trabalho"
+  },
+  {
+    "id": 23,
+    "title": "Ideias para App Mobile",
+    "summary": "Integer eu lobortis augue, sit amet tincidunt ante. Pellentesque hendrerit a mauris et imperdiet.",
+    "createdAt": "2026-03-23T21:30:00+00:00",
+    "tags": ["mobile", "ideas", "flutter"],
+    "topics": [],
+    "folderName": "ideias"
+  },
+  {
+    "id": 24,
+    "title": "Configuração de CI/CD",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices nisi in nunc bibendum tincidunt.",
+    "createdAt": "2026-03-24T11:20:00+00:00",
+    "tags": ["github-actions", "devops", "ci-cd"],
+    "topics": [],
+    "folderName": "projetos"
+  },
+  {
+    "id": 25,
+    "title": "Estudo de Caso: Netflix",
+    "summary": "Maecenas leo diam, sodales at massa sit amet, sodales molestie eros. Integer urna purus, sodales vitae.",
+    "createdAt": "2026-03-25T15:45:00+00:00",
+    "tags": ["case-study", "architecture", "system-design"],
+    "topics": [],
+    "folderName": "estudos"
+  },
+  {
+    "id": 26,
+    "title": "Pautas para Reunião 1:1",
+    "summary": "Aliquam ligula metus, rhoncus nec risus vitae, placerat egestas dui. Nam nec efficitur mauris.",
+    "createdAt": "2026-03-26T09:30:00+00:00",
+    "tags": ["work", "management", "1on1"],
+    "topics": [],
+    "folderName": "trabalho"
+  },
+  {
+    "id": 27,
+    "title": "Thumbnails para os Vídeos",
+    "summary": "Nulla sodales, purus tempor posuere mollis, turpis odio rhoncus urna, rutrum venenatis erat nisi eget tortor.",
+    "createdAt": "2026-03-27T14:10:00+00:00",
+    "tags": ["youtube", "design", "photoshop"],
+    "topics": [],
+    "folderName": "criacao"
+  },
+  {
+    "id": 28,
+    "title": "Aprender TypeScript",
+    "summary": "Proin viverra, ante et porta blandit, est urna ultrices massa, in imperdiet nisl nunc id massa.",
+    "createdAt": "2026-03-28T10:00:00+00:00",
+    "tags": ["typescript", "javascript", "learning"],
+    "topics": [],
+    "folderName": "estudos"
+  },
+  {
+    "id": 29,
+    "title": "Feedback de Usuários",
+    "summary": "Nullam porta purus sed felis venenatis eleifend. Integer eu lobortis augue, sit amet tincidunt ante.",
+    "createdAt": "2026-03-28T16:25:00+00:00",
+    "tags": ["feedback", "product", "ux"],
+    "topics": [],
+    "folderName": "projetos"
+  },
+  {
+    "id": 30,
+    "title": "Metas Trimestrais (Q2)",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit a mauris et imperdiet.",
+    "createdAt": "2026-03-28T08:15:00+00:00",
+    "tags": ["goals", "okr", "planning"],
+    "topics": [],
+    "folderName": "pessoal"
+  },
+  {
+    "id": 31,
+    "title": "Refatoração do Módulo de Pagamento",
+    "summary": "Maecenas leo diam, sodales at massa sit amet, sodales molestie eros. Nunc ultrices nisi in nunc.",
+    "createdAt": "2026-03-28T11:50:00+00:00",
+    "tags": ["work", "refactoring", "java"],
+    "topics": [],
+    "folderName": "trabalho"
+  },
+  {
+    "id": 32,
+    "title": "Equipamentos de Áudio",
+    "summary": "Integer urna purus, sodales vitae ligula vel, dapibus luctus metus. Aliquam ligula metus, rhoncus nec.",
+    "createdAt": "2026-03-28T15:05:00+00:00",
+    "tags": ["youtube", "audio", "gear"],
+    "topics": [],
+    "folderName": "referencias"
+  },
+  {
+    "id": 33,
+    "title": "Introdução a GraphQL",
+    "summary": "Turpis odio rhoncus urna, rutrum venenatis erat nisi eget tortor. Nulla sodales, purus tempor posuere.",
+    "createdAt": "2026-03-28T09:40:00+00:00",
+    "tags": ["graphql", "api", "backend"],
+    "topics": [],
+    "folderName": "estudos"
+  },
+  {
+    "id": 34,
+    "title": "Brainstorm de Projetos Open Source",
+    "summary": "Proin viverra, ante et porta blandit, est urna ultrices massa, in imperdiet nisl nunc id massa.",
+    "createdAt": "2026-03-28T18:30:00+00:00",
+    "tags": ["open-source", "community", "ideas"],
+    "topics": [],
+    "folderName": "ideias"
+  },
+  {
+    "id": 35,
+    "title": "Migração de Banco de Dados",
+    "summary": "Nullam porta purus sed felis venenatis eleifend. Integer eu lobortis augue, sit amet tincidunt ante.",
+    "createdAt": "2026-03-28T10:10:00+00:00",
+    "tags": ["database", "migration", "postgresql"],
+    "topics": [],
+    "folderName": "projetos"
+  }
+]
