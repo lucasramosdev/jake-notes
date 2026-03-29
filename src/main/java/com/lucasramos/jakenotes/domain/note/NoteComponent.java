@@ -1,7 +1,13 @@
 package com.lucasramos.jakenotes.domain.note;
 
+import com.lucasramos.jakenotes.domain.note.document.NoteDocument;
+import com.lucasramos.jakenotes.domain.note.document.NoteDocumentService;
 import com.lucasramos.jakenotes.dto.covers.NoteCoverDto;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageImpl;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -13,6 +19,9 @@ public class NoteComponent {
     private NoteService noteService;
 
     @Autowired
+    private NoteDocumentService noteDocumentService;
+
+    @Autowired
     private NoteMapper noteMapper;
 
     public List<NoteCoverDto> getRecentNotes() {
@@ -20,4 +29,9 @@ public class NoteComponent {
         return notes.stream().map(noteMapper::toNoteCoverDto).toList();
     }
 
+    public Page<NoteCoverDto> searchNotes(String query, int page) {
+        Pageable pageable = PageRequest.of(page, 10);
+        Page<NoteDocument> documents = noteDocumentService.searchNotes(query, pageable);
+        return new PageImpl<>(documents.stream().map(noteMapper::toNoteCoverDto).toList(), pageable, documents.getTotalElements());
+    }
 }

@@ -1,0 +1,12 @@
+<main>
+    <section>
+        <h3 class="section-title">Resultado da busca: <span th:text="${query}"> <span/></h3>
+
+        <div class="container-fluid d-flex justify-content-center justify-content-lg-start row row-cols-auto">
+            <th:block th:each="note : ${notes}">
+                <div th:replace="~{fragments/note-cover :: cover(note=${note})}">
+                </div>
+            </th:block>
+        </div>
+    </section>
+</main>
