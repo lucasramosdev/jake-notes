@@ -17,15 +17,6 @@ body {
     margin: 0;
     background-color: var(--bg-color);
     color: #000;
-/*    background: repeating-linear-gradient(
-        to bottom,
-        #F6DDAC 0,
-        #F6DDAC 20px,
-        #000 20px,
-        #000 21px
-  );
-    -webkit-backdrop-filter: blur(2px);
-    backdrop-filter: blur(2px);*/
 }
 
 main {
@@ -33,7 +24,7 @@ main {
 }
 
 section {
-    margin: 3em 0;
+    margin-bottom: 3em;
 }
 
 input:focus {

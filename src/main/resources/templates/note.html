@@ -1,0 +1,46 @@
+<main>
+    <section>
+        <h3 class="section-title" th:text="${note.title}"></h3>
+
+        <div class="container-fluid note-area d-none d-lg-block p-4">
+            <th:block th:each="topic : ${note.topics}">
+                <div class="row">
+                    <div class="col d-flex justify-content-between">
+                        <h4 class="fs-6" th:text="${topic.keyword}"></h4>
+                        <div class="vr"></div>
+                    </div>
+                    <md-block class="col-10 fs-6 mb-2" th:text="${topic.details}">
+                    </md-block>
+                </div>
+            </th:block>
+            <div class="row">
+                <hr>
+            </div>
+            <div class="row px-5 py-2">
+                <p th:text="${note.summary}"></p>
+            </div>
+        </div>
+        <div class="container-fluid note-area d-block d-lg-none accordion p-0" id="accordionTopics">
+            <th:block th:each="topic : ${note.topics}">
+                <div class="accordion-item border-0">
+                    <h4 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" th:attr="data-bs-target='#topic-'+${topic.id},aria-controls='#topic-'+${topic.id}" aria-expanded="true"
+                        th:text="${topic.keyword}"
+                        >
+                        </button>
+                    </h4>
+                    <div th:id="'topic-'+${topic.id}" class="accordion-collapse collapse show p-1" data-bs-parent="#accordionTopics">
+                        <md-block class="accordion-body fs-6" th:text="${topic.details}">
+                        </md-block>
+                    </div>
+                </div>
+            </th:block>
+            <div class="p-2 container-fluid">
+                <p th:text="${note.summary}"></p>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="/js/md-block.js"></script>
+    <script src="/js/note.js"></script>
+</main>
