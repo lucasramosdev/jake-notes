@@ -38,3 +38,7 @@ out/
 
 ### ENV FILES ###
 *.env
+
+### Credentials Google Drive
+*google-auth.json
+token.json

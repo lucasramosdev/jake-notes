@@ -18,3 +18,10 @@ spring:
     meilisearch:
       host: ${MEILI_HOST}
       masterKey: ${MEILI_MASTERKEY}
+    gdrive:
+      client_id: ${GDRIVE_CLIENT_ID}
+      client_secret: ${GDRIVE_CLIENT_SECRET}
+      access_token: ${GDRIVE_ACCESS_TOKEN}
+      refresh_token: ${GDRIVE_CLIENT_ID}
+      application_name: ${GDRIVE_APP_NAME}
+      root_folder_id: ${GDRIVE_ROOT_FOLDER_ID}
